@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    background-color: rgb(72, 72, 180);
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .nav1 a{
+    color: white;
+    padding-left: 40px;
+    font-size: 15px;
+    font-weight: bolder;
+    letter-spacing: 1px;
+
+}
+
+header .nav1 a:hover {
+    text-decoration: underline;
+}
+
+header button {
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: 20px;
+    background-color: white;
+    border: none;
+    color: black;
+    font-weight: bolder;
+
+}
+
+h1 {
+    color:darkblue;
+    font-size: 50px;
+}
+
+.banner {
+    width: 1000;
+    height: 600px;
+    padding-left: 2%;
+    text-align: left;
+    justify-content: left;
+    align-items: center;
+    display: flex;
+    background-image: url(../img/SafeSpace-Psicologia-Comportamental-01.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.banner h4 {
+    color: rgb(19, 73, 130);
+    position: absolute;
+    margin-top: 10%;
+    padding-left: 3%;
+    text-shadow: 3px 6px 8px rgb(102, 150, 255);
+}
+
+.conteudo {
+    padding: 2%;
+    background-color: rgba(2, 46, 121, 0.237);
+    margin: 3%;
+    border-radius: 10px;
+}
+
+.conteudo h3 {
+    color: rgb(15, 15, 126);
+}
+
+.sobre {
+    padding: 4%;
+    font-size: 30px;
+    color: rgb(72, 72, 180);
+}
+
+.Investimento {
+    display: flex;
+    flex-wrap:wrap;
+    gap: 10px;
+    justify-content: space-around;
+    
+}
+
+.Investimento div {
+    background-color: rgba(3, 73, 121, 0.646);
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.investimento {
+    font-size: 25px;
+    color: rgb(15, 15, 126);
+    text-align: center;
+}
+
+.Investimento h6 {
+    color: rgb(168, 207, 239);
+}
+
+.Investimento h5 {
+    padding: 4%;
+    font-size: 17px;
+}
+
+.botao{
+        padding: 25px 25px;
+        border-radius: 15px;
+        border-style: none;
+        background-color: darkblue;
+        color:white;
+        transition: 0.3s ease, 0.3s ease;
+        cursor: pointer;
+        display: block;
+        margin: 0 auto;
+        font-size: 18px;
+        
+    }
+    .botao:hover{
+        transform: scale(1.05);
+        background-color: cornflowerblue;
+    }
+
+footer {
+    background-color: rgb(72, 72, 180);
+    color: white;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    padding: 3%;
+}
+
+@media (max-width: 768px) {
+   footer img {
+    width: 160px;
+    height: 128px;
+   }
+}
+
+@media (max-width: 425px) {
+    h1 {
+        font-size: 10px;
+    }
+
+    .banner {
+        width: 10px;
+        height: 200px;
+    }    
+}
+
+@media (max-width: 375px) {
+
+ }
+
+ @media (max-width: 320px) {
+
+ }
